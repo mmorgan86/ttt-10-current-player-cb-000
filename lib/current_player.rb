@@ -4,4 +4,5 @@ def turn_count(board)
   if board.length == ""
     count += 1
   end
+  turn = count
 end
