@@ -12,8 +12,8 @@ end
 #determines which player
 def current_player(board)
   if turn_count(boar
-    return "X" 
+    return ("X")
   else
-    return "O"
+    return ("O")
   end
 end
