@@ -11,7 +11,7 @@ end
 
 #determines which player
 def current_player(board)
-  if turn_count(boar
+  if turn_count(board)
     "X"
   else
     "O"
