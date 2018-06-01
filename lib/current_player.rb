@@ -1,4 +1,4 @@
-#urn_count defines whose turn it is
+#turn_count defines whose turn it is
 def turn_count(board)
   counter = 0
   board.each do |space|
@@ -8,3 +8,4 @@ def turn_count(board)
   end
   return counter
 end
+
