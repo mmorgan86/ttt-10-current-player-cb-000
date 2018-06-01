@@ -2,6 +2,6 @@
 def turn_count(board)
   counter = 0 
   if board.length == "X" || "O" do
-    counter += 1 
+    count += 1
   end
 end
